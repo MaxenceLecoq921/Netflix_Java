@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "com.Modele.HelloWorld",
+            "projectName": "netflix_java"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "com.Modele.Test",
+            "projectName": "netflix_java",
+            "vmArgs": "--module-path C:\\javafx-sdk-20\\lib --add-modules javafx.controls,javafx.fxml,javafx.web --add-opens javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED --add-exports javafx.web/com.sun.webkit=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "netflix_java",
+            "vmArgs": "--module-path C:\\javafx-sdk-20\\lib --add-modules javafx.controls,javafx.fxml,javafx.web --add-opens javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED --add-exports javafx.web/com.sun.webkit=ALL-UNNAMED"
+        }
+    ]
+}

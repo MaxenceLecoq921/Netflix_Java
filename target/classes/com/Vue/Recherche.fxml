@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Controller.RechercheController">
+    
+    <!-- Ajouter un Rectangle noir en arrière-plan qui occupe tout l'espace de la AnchorPane -->
+    <Rectangle width="${anchorPane.width}" height="${anchorPane.height}" fill="#000" />
+    
+    <GridPane fx:id="imageGrid" hgap="10.0" vgap="10.0">
+        
+        <!-- Ajouter des éléments ici -->
+        
+    </GridPane>
+    
+    <!-- Ajouter des éléments ici -->
+    
+</AnchorPane>

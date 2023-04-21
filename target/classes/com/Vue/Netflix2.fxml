@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1522.0" prefWidth="923.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Controller.NetflixController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1522.0" prefWidth="922.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="407.0" fitWidth="909.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="alien.png" />
+               </image>
+            </ImageView>
+            <Rectangle height="401.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="923.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="0.803030283162088" startX="1.0" startY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color opacity="0.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <ImageView fitHeight="27.0" fitWidth="88.0" layoutX="29.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="netflix.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Button layoutX="134.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Action/Aventure" underline="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="254.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Comédie" underline="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="326.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Science-fiction" underline="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="434.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Drame" underline="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="492.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Films d'animation" underline="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1400ff" height="48.0" layoutX="39.0" layoutY="233.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="35.0" />
+            <TextField alignment="CENTER" layoutX="27.0" layoutY="226.0" prefHeight="40.0" prefWidth="58.0" style="-fx-background-color: none; -fx-text-fill: white;" text="TOP">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER" layoutX="27.0" layoutY="240.0" prefHeight="17.0" prefWidth="58.0" style="-fx-background-color: none; -fx-text-fill: white;" text="10">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="80.0" layoutY="236.0" prefHeight="43.0" prefWidth="287.0" style="-fx-background-color: none; -fx-text-fill: white;" text="N° 4 des films aujourd'hui">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </TextField>
+            <TextField alignment="TOP_LEFT" layoutX="85.0" layoutY="278.0" prefHeight="26.0" prefWidth="426.0" style="-fx-background-color: none; -fx-text-fill: white;" text="Un équipage à bord du vaisseau spatial Covenant découvre une planète" />
+            <TextField alignment="TOP_LEFT" layoutX="85.0" layoutY="298.0" prefHeight="26.0" prefWidth="426.0" style="-fx-background-color: none; -fx-text-fill: white;" text="apparemment idyllique pour coloniser. Rapidement, ils se rendent compte" />
+            <TextField alignment="TOP_LEFT" layoutX="85.0" layoutY="318.0" prefHeight="26.0" prefWidth="426.0" style="-fx-background-color: none; -fx-text-fill: white;" text="que cette terre inexplorée cache de terribles secrets et des dangers mortels. " />
+            <Button fx:id="alien" alignment="CENTER" layoutX="127.0" layoutY="352.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="114.0" style="-fx-background-color: grey; -fx-text-fill: white;" text="► Lecture">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <!-- <Button alignment="CENTER" layoutX="263.0" layoutY="352.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="120.0" style="-fx-background-color: grey; -fx-text-fill: white;" text="Plus d'infos">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button> -->
+            <Rectangle fill="#8e8e8e" height="37.0" layoutX="826.0" layoutY="293.0" opacity="0.68" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="83.0" />
+            <TextField layoutX="818.0" layoutY="290.0" opacity="0.8" prefHeight="43.0" prefWidth="65.0" promptText="13+" style="-fx-background-color: none; -fx-text-fill: white;" text="13+">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="22.0" layoutY="476.0" prefHeight="41.0" prefWidth="287.0" style="-fx-background-color: none; -fx-text-fill: white;" text="Action / Aventure">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </TextField>
+            <ImageView fx:id="madmax" fitHeight="118.0" fitWidth="197.0" layoutX="22.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="madmax.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="gladiator" fitHeight="139.0" fitWidth="197.0" layoutX="241.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="gladiator.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="indiana" fitHeight="140.0" fitWidth="197.0" layoutX="470.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="indiana.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="anneaux" fitHeight="139.0" fitWidth="197.0" layoutX="690.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="anneaux.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <TextField layoutX="22.0" layoutY="680.0" prefHeight="41.0" prefWidth="287.0" style="-fx-background-color: none; -fx-text-fill: white;" text="Drame">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </TextField>
+            <ImageView fx:id="liste" fitHeight="118.0" fitWidth="212.0" layoutX="22.0" layoutY="724.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="liste.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="evades" fitHeight="118.0" fitWidth="197.0" layoutX="238.0" layoutY="722.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="evades.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="ligne" fitHeight="118.0" fitWidth="215.0" layoutX="467.0" layoutY="722.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="ligne.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="parrain" fitHeight="139.0" fitWidth="197.0" layoutX="690.0" layoutY="722.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="parrain.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <TextField layoutX="22.0" layoutY="866.0" prefHeight="41.0" prefWidth="287.0" style="-fx-background-color: none; -fx-text-fill: white;" text="Sciences-fiction">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </TextField>
+            <ImageView fx:id="matrix" fitHeight="118.0" fitWidth="212.0" layoutX="22.0" layoutY="908.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="matrix.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="inter" fitHeight="139.0" fitWidth="197.0" layoutX="246.0" layoutY="907.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="inter.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="runner" fitHeight="118.0" fitWidth="197.0" layoutX="470.0" layoutY="908.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="runner.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="inception" fitHeight="118.0" fitWidth="215.0" layoutX="690.0" layoutY="908.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="inception.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <TextField layoutX="22.0" layoutY="1056.0" prefHeight="41.0" prefWidth="287.0" style="-fx-background-color: none; -fx-text-fill: white;" text="Comédie">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </TextField>
+            <ImageView fx:id="visiteurs" fitHeight="118.0" fitWidth="212.0" layoutX="22.0" layoutY="1098.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="visiteurs.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="vadrouille" fitHeight="118.0" fitWidth="215.0" layoutX="246.0" layoutY="1098.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="vadrouille.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="intouchables" fitHeight="118.0" fitWidth="197.0" layoutX="470.0" layoutY="1098.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="intouchables.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="cons" fitHeight="139.0" fitWidth="197.0" layoutX="690.0" layoutY="1098.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="cons.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <TextField layoutX="22.0" layoutY="1243.0" prefHeight="41.0" prefWidth="287.0" style="-fx-background-color: none; -fx-text-fill: white;" text="Films d'animation">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </TextField>
+            <ImageView fx:id="lion" fitHeight="118.0" fitWidth="212.0" layoutX="22.0" layoutY="1285.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="lion.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="walle" fitHeight="118.0" fitWidth="215.0" layoutX="246.0" layoutY="1285.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="walle.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="ratatouille" fitHeight="118.0" fitWidth="197.0" layoutX="470.0" layoutY="1285.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="ratatouille.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Button layoutX="8.0" layoutY="1457.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="153.0" style="-fx-background-color: none; -fx-text-fill: white;" text="Mes Favoris" underline="true">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="442.0" layoutY="1458.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="153.0" style="-fx-background-color: none; -fx-text-fill: white;" text="Changer de profil" underline="true">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="609.0" layoutY="1457.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: none; -fx-text-fill: white;" text="Se déconnecter" underline="true">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="753.0" layoutY="1458.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="138.0" style="-fx-background-color: none;" text="Quitter Netflix" textFill="#1400ff" underline="true">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <TextField layoutX="679.0" layoutY="13.0" prefHeight="40.0" prefWidth="218.0" style="-fx-background-color: none; -fx-text-fill: white; -fx-border-color: white; -fx-border-width: 2; -fx-border-radius: 5;" promptText="Rechercher ...">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

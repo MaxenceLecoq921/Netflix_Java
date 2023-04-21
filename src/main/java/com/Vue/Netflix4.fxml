@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="972.0" prefWidth="928.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Controller.NetflixController">
+   <children>
+      <ImageView fitHeight="408.0" fitWidth="928.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="alien.png" />
+         </image>
+      </ImageView>
+      <Rectangle disable="true" focusTraversable="true" height="404.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="928.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.7651514718026826" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color opacity="0.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Button layoutX="154.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Action/Aventure" underline="true">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="274.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Comédie" underline="true">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="346.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Science-fiction" underline="true">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="454.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Drame" underline="true">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="512.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: none;" text="Films d'animation" underline="true">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="27.0" fitWidth="88.0" layoutX="29.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="netflix.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1400ff" height="48.0" layoutX="29.0" layoutY="224.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="35.0" />
+      <TextField layoutX="70.0" layoutY="226.0" prefHeight="43.0" prefWidth="287.0" style="-fx-background-color: none; -fx-text-fill: white;" text="N° 4 des films aujourd'hui">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="17.0" layoutY="216.0" prefHeight="40.0" prefWidth="58.0" style="-fx-background-color: none; -fx-text-fill: white;" text="TOP">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="17.0" layoutY="230.0" prefHeight="40.0" prefWidth="58.0" style="-fx-background-color: none; -fx-text-fill: white;" text="10">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </TextField>
+      <TextField alignment="TOP_LEFT" layoutX="75.0" layoutY="268.0" prefHeight="26.0" prefWidth="426.0" style="-fx-background-color: none; -fx-text-fill: white;" text="Un équipage à bord du vaisseau spatial Covenant découvre une planète" />
+      <TextField alignment="TOP_LEFT" layoutX="75.0" layoutY="288.0" prefHeight="26.0" prefWidth="426.0" style="-fx-background-color: none; -fx-text-fill: white;" text="apparemment idyllique pour coloniser. Rapidement, ils se rendent compte" />
+      <TextField alignment="TOP_LEFT" layoutX="75.0" layoutY="308.0" prefHeight="26.0" prefWidth="426.0" style="-fx-background-color: none; -fx-text-fill: white;" text="que cette terre inexplorée cache de terribles secrets et des dangers mortels. " />
+      <Button alignment="CENTER" layoutX="117.0" layoutY="342.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="114.0" style="-fx-background-color: grey; -fx-text-fill: white;" text="Lecture">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" layoutX="253.0" layoutY="342.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="120.0" style="-fx-background-color: grey; -fx-text-fill: white;" text="Plus d'infos">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField layoutX="29.0" layoutY="464.0" prefHeight="41.0" prefWidth="287.0" style="-fx-background-color: none; -fx-text-fill: white;" text="Action / Aventure">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="154.0" fitWidth="287.0" layoutX="29.0" layoutY="518.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="madmax.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="29.0" layoutY="693.0" prefHeight="41.0" prefWidth="287.0" style="-fx-background-color: none; -fx-text-fill: white;" text="Drame">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="154.0" fitWidth="287.0" layoutX="310.0" layoutY="518.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="madmax.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="154.0" fitWidth="287.0" layoutX="584.0" layoutY="518.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="madmax.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="154.0" fitWidth="287.0" layoutX="29.0" layoutY="735.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="madmax.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="154.0" fitWidth="287.0" layoutX="310.0" layoutY="735.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="madmax.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="154.0" fitWidth="287.0" layoutX="584.0" layoutY="735.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="madmax.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
